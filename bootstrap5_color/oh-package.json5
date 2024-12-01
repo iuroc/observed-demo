@@ -1,0 +1,9 @@
+{
+    "name": "bootstrap5_color",
+    "version": "1.0.0",
+    "description": "来自 Bootstrap V5 的颜色配置方案",
+    "main": "Index.ets",
+    "author": "iuroc",
+    "license": "Apache-2.0",
+    "dependencies": {}
+}

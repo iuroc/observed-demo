@@ -1,9 +1,9 @@
 {
     "module": {
-        "name": "entry",
+        "name": "test02",
         "type": "entry",
         "description": "$string:module_desc",
-        "mainElement": "EntryAbility",
+        "mainElement": "Test02Ability",
         "deviceTypes": [
             "phone",
             "tablet",
@@ -14,11 +14,11 @@
         "pages": "$profile:main_pages",
         "abilities": [
             {
-                "name": "EntryAbility",
-                "srcEntry": "./ets/entryability/EntryAbility.ets",
-                "description": "$string:EntryAbility_desc",
+                "name": "Test02Ability",
+                "srcEntry": "./ets/test02ability/Test02Ability.ets",
+                "description": "$string:Test02Ability_desc",
                 "icon": "$media:layered_image",
-                "label": "$string:EntryAbility_label",
+                "label": "$string:Test02Ability_label",
                 "startWindowIcon": "$media:startIcon",
                 "startWindowBackground": "$color:start_window_background",
                 "exported": true,
@@ -36,8 +36,8 @@
         ],
         "extensionAbilities": [
             {
-                "name": "EntryBackupAbility",
-                "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+                "name": "Test02BackupAbility",
+                "srcEntry": "./ets/test02backupability/Test02BackupAbility.ets",
                 "type": "backup",
                 "exported": false,
                 "metadata": [

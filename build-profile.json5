@@ -26,8 +26,8 @@
     },
     "modules": [
         {
-            "name": "entry",
-            "srcPath": "./entry",
+            "name": "test01",
+            "srcPath": "./test01",
             "targets": [
                 {
                     "name": "default",
@@ -36,6 +36,22 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "test02",
+            "srcPath": "./test02",
+            "targets": [
+                {
+                    "name": "default",
+                    "applyToProducts": [
+                        "default"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "bootstrap5_color",
+            "srcPath": "./bootstrap5_color",
         }
     ]
 }
